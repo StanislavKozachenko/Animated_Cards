@@ -34,6 +34,9 @@ body {
 	margin: 10px;
 	transition: 0.3s;
 }
+.Card:hover {
+	cursor: pointer;
+}
 #Card_01:hover {
 	transition: 0.3s;
 	transform: translateZ(20px);
