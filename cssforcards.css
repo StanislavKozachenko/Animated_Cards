@@ -102,6 +102,9 @@ body {
 		background-position: left 1000px top 0;
 	}
 }
+.Text_container {
+	background-color: #363252;
+}
 #Two {
 	font-size: 20px;
 }
