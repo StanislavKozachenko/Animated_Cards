@@ -76,11 +76,31 @@ body {
 	flex-direction: column;
 	align-items: center;
 	padding-top: 2%;
-	font-size: 55px;
-	color: #fff;
-	background-color: #363252;
+	font-size: 105px;
+	color: rgba(255, 255, 255, 0.2);
 	font-family: Arial;
 	font-weight: bold;
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbYZ2O2N7FcK8sgcTaH1ca-7GFmX2C0ocYCJ3nlUxG_oRf6KdV) repeat-x;
+	-webkit-background-clip: text;
+	background-size: contain;
+	animation: cosmos 10s linear infinite;
+}
+@keyframes cosmos{
+	0% {
+		background-position: left 0 top 0;
+	}
+	25% {
+		background-position: left 250px top 15px;
+	}
+	50% {
+		background-position: left 500px top 25px;
+	}
+	75% {
+		background-position: left 750px top 15px;
+	}
+	100% {
+		background-position: left 1000px top 0;
+	}
 }
 #Two {
 	font-size: 20px;
